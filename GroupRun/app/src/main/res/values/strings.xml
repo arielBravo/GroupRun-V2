@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GroupRun</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">125425167995991</string>
+    <string name="cancel_login">Se cancelo la operacion</string>
+    <string name="error_login">Ocurrió un error</string>
+    <string name="title_activity_agregar_ruta">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

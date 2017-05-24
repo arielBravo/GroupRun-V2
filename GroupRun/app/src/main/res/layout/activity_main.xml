@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    android:background="#BBDEFB">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/agregar"
+        android:layout_width="85dp"
+        android:layout_height="84dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:backgroundTint="@color/com_facebook_button_background_color_focused"
+        app:srcCompat="@drawable/signo"
+        app:layout_constraintHorizontal_bias="0.746"
+        android:layout_marginBottom="131dp" />
+    <fragment
+        android:name="com.ariel_bravo_outlook.grouprun.FragmentDatosUsuario"
+        android:id="@+id/izq"
+        android:layout_width="380dp"
+        android:layout_height="152dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        tools:layout="@layout/fragment_fragment_datos_usuario"
+
+
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="362dp"
+
+
+        android:layout_marginStart="3dp" />
+
+    <Button
+        android:onClick="logout"
+        android:id="@+id/botonCerrarCesion"
+        android:layout_width="127dp"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="Salir"
+        android:textColor="@color/colorPrimaryDark"
+        android:backgroundTint="@color/com_facebook_button_background_color_focused"
+
+
+        android:layout_marginBottom="16dp"
+        app:layout_constraintHorizontal_bias="0.501" />
+    <ImageView
+        android:id="@+id/fotoPerfil"
+        android:layout_width="85dp"
+        android:layout_height="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        android:layout_marginBottom="274dp" />
+    <TextView
+        android:layout_width="124dp"
+        android:layout_height="31dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/nombreusuario"
+        app:layout_constraintHorizontal_bias="0.453"
+        android:layout_marginBottom="319dp" />
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="23dp"
+        android:textSize="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/correousuario"
+
+        app:layout_constraintHorizontal_bias="0.455"
+        android:layout_marginBottom="296dp" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/buscar"
+        android:layout_width="85dp"
+        android:layout_height="84dp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:backgroundTint="@color/com_facebook_button_background_color_focused"
+
+        app:srcCompat="@drawable/buscar"
+        app:layout_constraintHorizontal_bias="0.193"
+        android:layout_marginBottom="131dp" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="78dp"
+        android:src="@drawable/icono_group_run"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        android:layout_marginBottom="284dp" />
+    <TextView
+        android:layout_width="74dp"
+        android:layout_height="36dp"
+        android:text="Group Run"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        android:layout_marginBottom="248dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+</android.support.constraint.ConstraintLayout>

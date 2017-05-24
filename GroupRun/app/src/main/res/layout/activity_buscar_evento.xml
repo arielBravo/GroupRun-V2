@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBDEFB"
+    tools:context="com.ariel_bravo_outlook.grouprun.BuscarEvento"
+    android:id="@+id/layout">
+
+
+    <Button
+        android:id="@+id/botonBus"
+        android:layout_width="160dp"
+        android:layout_height="67dp"
+        android:text="buscar evento"
+        android:textColor="@color/colorPrimaryDark"
+        android:backgroundTint="@color/com_facebook_button_background_color_focused"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="394dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="133dp"
+        android:layout_height="33dp"
+        android:text="Nombre del Evento"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        android:layout_marginBottom="507dp" />
+    <EditText
+        android:id="@+id/eBuscar"
+        android:layout_width="200dp"
+        android:layout_height="57dp"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        android:layout_marginBottom="494dp" />
+
+    <Button
+        android:backgroundTint="@color/com_facebook_button_background_color_focused"
+        android:id="@+id/bsalir"
+        android:layout_width="170dp"
+        android:layout_height="67dp"
+        android:text="Regresar"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="394dp"
+        app:layout_constraintHorizontal_bias="0.925" />
+
+</android.support.constraint.ConstraintLayout>
